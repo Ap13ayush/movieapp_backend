@@ -19,8 +19,47 @@ This project is the backend for a movie streaming application, designed to handl
 ### Installation
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/movie-backend-app.git
+    git clone https://github.com/yourusername/movie-backend-app.git
 
 2. Navigate to the project directory:
-   bash
-   npm install
+   
+    bash  npm install
+
+3. Install dependencies:
+   
+    npm install
+
+ 4. Set up environment variables:
+   Create a `.env` file in the root directory and configure the necessary environment variables:
+
+     DB_URI=mongodb://localhost:27017/movieApp
+
+
+   
+### Running the Application
+Run the application in development mode:
+
+   npm run dev
+
+For production, start the application with:
+
+   npm start
+
+
+   
+## API Documentation
+Refer to the `docs` folder for detailed API documentation. Alternatively, access the live documentation at `http://localhost:3000/api-docs` after starting the application.
+
+## Deployment
+This application is container-ready with Docker and can be orchestrated with Kubernetes. See the `Dockerfile` and `kubernetes-config.yaml` for deployment configurations.
+
+## Contributing
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for more information on how to get started.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- Node.js community
+- Express.js team
+- And all our wonderful contributors!

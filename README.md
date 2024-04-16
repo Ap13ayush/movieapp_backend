@@ -19,7 +19,7 @@ This project is the backend for a movie streaming application, designed to handl
 ### Installation
 1. Clone the repository:
 
-    git clone https://github.com/yourusername/movie-backend-app.git
+    git clone https://github.com/Ap13ayush/movie-backend-app.git
 
 2. Navigate to the project directory:
    
